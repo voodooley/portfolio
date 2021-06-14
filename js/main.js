@@ -141,9 +141,7 @@ function scrollActive() {
         }
     })
 }
-
-
-console.log(scrollY);
+window.addEventListener('scroll', scrollActive)
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 
 
